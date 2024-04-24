@@ -1,0 +1,257 @@
+import Image from "next/image";
+import Wrapper from "../wrapper/wrapper";
+import Faq from "./faq";
+
+const AboutSection = () => {
+  return (
+    <div className="w-full py-20 mt-20">
+      <Wrapper className="flex items-start justify-between w-full">
+        <div className="w-1/2">
+          <p className="w-[50%] uppercase text-black/80 text-xl">About</p>
+        </div>
+        <div className="w-full">
+          <h2 className=" text-black uppercase font-medium text-7xl w-[80%]">
+            The goal is to provide professional service to our customers
+          </h2>
+
+          <div className="w-full flex">
+            <div className="w-full h-[600px] flex flex-col mt-8">
+              <div className="h-[600px] w-[95%] relative">
+                <Image
+                  className=" object-cover object-center"
+                  quality={100}
+                  fill
+                  src="/about-1.png"
+                  alt="About image"
+                />
+              </div>
+              <p className=" mt-4 text-lg">
+                Our services include, but are not limited to, legal counseling,
+                court representation, arbitration and mediation, consumer
+                protection.
+              </p>
+            </div>
+            <div className="w-full h-[600px] flex flex-col mt-8 justify-between">
+              <div className="h-full">
+                <p className=" text-lg">
+                  Our services include, but are not limited to, legal
+                  counseling, court representation, arbitration and mediation,
+                  consumer protection.
+                </p>
+              </div>
+              <div className="h-full flex flex-col justify-end">
+                <div className="h-[320px] w-[95%] relative">
+                  <Image
+                    className=" object-cover object-center"
+                    quality={100}
+                    fill
+                    src="/about-2.png"
+                    alt="About image"
+                  />
+                </div>
+
+                <p className=" mt-4 text-lg">
+                  Our services include, but are not limited to, legal
+                  counseling, court representation, arbitration and mediation,
+                  consumer protection.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Wrapper>
+      <Wrapper className="flex items-start justify-between w-full mt-40">
+        <div className="w-1/2">
+          <p className="w-[50%] uppercase text-black/80 text-xl">Advantages</p>
+        </div>
+        <div className="w-full">
+          <h2 className=" text-black uppercase font-medium text-7xl w-[80%]">
+            Four reasons <br /> to hire us
+          </h2>
+        </div>
+      </Wrapper>
+      <Wrapper className="flex items-center justify-between mt-10 gap-5">
+        <div className="w-full bg-[#e9e9e9] py-6 px-6">
+          <h4 className="uppercase text-xl text-black font-medium">
+            Professionalism <br />
+            and experience
+          </h4>
+          <p className="text-black/70 text-lg font-normal mt-4">10 Years</p>
+          <p className="text-black text-lg font-normal mt-14">
+            Our law firm has many years of experience in providing high quality
+            legal services. Our lawyers have in-depth knowledge in their field
+            and always keep up to dat with changes in the law
+          </p>
+        </div>
+        <div className="w-full bg-[#e9e9e9] py-6 px-6">
+          <h4 className="uppercase text-xl text-black font-medium">
+            Professionalism <br />
+            and experience
+          </h4>
+          <p className="text-black/70 text-lg font-normal mt-4">10 Years</p>
+          <p className="text-black text-lg font-normal mt-14">
+            Our law firm has many years of experience in providing high quality
+            legal services. Our lawyers have in-depth knowledge in their field
+            and always keep up to dat with changes in the law
+          </p>
+        </div>
+        <div className="w-full bg-[#e9e9e9] py-6 px-6 -mb-[45rem]">
+          <h4 className="uppercase text-xl text-black font-medium">
+            Professionalism <br />
+            and experience
+          </h4>
+          <p className="text-black/70 text-lg font-normal mt-4">10 Years</p>
+          <p className="text-black text-lg font-normal mt-14">
+            Our law firm has many years of experience in providing high quality
+            legal services. Our lawyers have in-depth knowledge in their field
+            and always keep up to dat with changes in the law
+          </p>
+        </div>
+        <div className="w-full bg-[#e9e9e9] py-6 px-6">
+          <h4 className="uppercase text-xl text-black font-medium">
+            Professionalism <br />
+            and experience
+          </h4>
+          <p className="text-black/70 text-lg font-normal mt-4">10 Years</p>
+          <p className="text-black text-lg font-normal mt-14">
+            Our law firm has many years of experience in providing high quality
+            legal services. Our lawyers have in-depth knowledge in their field
+            and always keep up to dat with changes in the law
+          </p>
+        </div>
+      </Wrapper>
+      <Wrapper className="flex items-center justify-end mt-8">
+        <div className="w-[20rem] h-[20rem] aspect-square rounded-full bg-[#C69043] flex items-center justify-center hover:bg-[#C69043]/80 cursor-pointer ease-in-out transition-all duration-500">
+          <p className=" text-white font-normal text-xl">Email Us</p>
+        </div>
+      </Wrapper>
+
+      <Wrapper className="flex items-start justify-between w-full mt-40">
+        <div className="w-1/2">
+          <p className="w-[50%] uppercase text-black/80 text-xl">Services</p>
+        </div>
+        <div className="w-full">
+          <h2 className=" text-black uppercase font-medium text-7xl w-[80%]">
+            A wide range of legal services to solve any legal issues
+          </h2>
+        </div>
+      </Wrapper>
+
+      <Wrapper className="flex h-fit mt-20 items-center justify-between">
+        <div className="h-[400px] w-[40%] relative">
+          <Image
+            className=" object-cover object-center"
+            quality={100}
+            fill
+            src="/service.png"
+            alt="Service image"
+          />
+        </div>
+        <Faq />
+      </Wrapper>
+
+      <Wrapper className="flex items-start justify-between w-full mt-40">
+        <div className="w-1/2">
+          <p className="w-[50%] uppercase text-black/80 text-xl">
+            We are trusted
+          </p>
+        </div>
+        <div className="w-full"></div>
+      </Wrapper>
+      <Wrapper className="flex justify-between w-full items-start gap-5 mt-8">
+        <div className="w-full h-[320px] bg-[#e9e9e9] py-6 px-6 flex items-center justify-center">
+          <div className="h-1/2 w-[80%] relative">
+            <Image
+              className=" object-contain object-center"
+              quality={100}
+              fill
+              src="/1.png"
+              alt="Partners"
+            />
+          </div>
+        </div>
+        <div className="w-full h-[280px] bg-[#e9e9e9] py-6 px-6 flex items-center justify-center">
+          <div className="h-1/2 w-[80%] relative">
+            <Image
+              className=" object-contain object-center"
+              quality={100}
+              fill
+              src="/2.png"
+              alt="Partners"
+            />
+          </div>
+        </div>
+        <div className="w-full h-[240px] bg-[#e9e9e9] py-6 px-6 flex items-center justify-center">
+          <div className="h-1/2 w-[80%] relative">
+            <Image
+              className=" object-contain object-center"
+              quality={100}
+              fill
+              src="/3.png"
+              alt="Partners"
+            />
+          </div>
+        </div>
+        <div className="w-full h-[280px] bg-[#e9e9e9] py-6 px-6 flex items-center justify-center">
+          <div className="h-1/2 w-[80%] relative">
+            <Image
+              className=" object-contain object-center"
+              quality={100}
+              fill
+              src="/4.png"
+              alt="Partners"
+            />
+          </div>
+        </div>
+        <div className="w-full h-[320px] bg-[#e9e9e9] py-6 px-6 flex items-center justify-center">
+          <div className="h-1/2 w-[80%] relative">
+            <Image
+              className=" object-contain object-center"
+              quality={100}
+              fill
+              src="/5.png"
+              alt="Partners"
+            />
+          </div>
+        </div>
+      </Wrapper>
+
+      <Wrapper className="flex items-start justify-between w-full mt-40">
+        <div className="w-1/2">
+          <p className="w-[50%] uppercase text-black/80 text-xl">Testimonial</p>
+        </div>
+        <div className="w-full">
+          <h3 className=" uppercase text-3xl font-normal text-black">
+            &apos;I am very satisfied with the work of the lawyers from Harrison
+            Law firm. They provided me with highly qualified legal support in
+            solving my complicated court problem. the whole process was very
+            thorough, the lawyers were attentive to my questions and always
+            answered them promptly.&apos;
+          </h3>
+
+          <div className="w-full mt-10 flex justify-between gap-10">
+            <div className="h-[720px] w-[80%] relative">
+              <Image
+                className=" object-cover object-center"
+                quality={100}
+                fill
+                src="/client.jpg"
+                alt="Client image"
+              />
+            </div>
+            <div className="w-full">
+              <h4 className="w-[50%] uppercase text-black font-medium text-2xl">
+                Bill Klein
+              </h4>
+              <p className=" text-black/70 font-normal text-xl">
+                CEO of Global Deliveries
+              </p>
+            </div>
+          </div>
+        </div>
+      </Wrapper>
+    </div>
+  );
+};
+
+export default AboutSection;

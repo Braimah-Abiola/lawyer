@@ -8,6 +8,7 @@ import Wrapper from "../wrapper/wrapper";
 import { useEffect, useState } from "react";
 import { NavItems } from "../ui/nav-items";
 import { Separator } from "../ui/separator";
+import { Menu } from "lucide-react";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -64,15 +65,8 @@ const Navbar = () => {
         <div className="lg:hidden">
           <Sheet>
             <SheetTrigger>
-              <div className="primary-button-small-backdrop px-5 xl:p-[3px] rounded-[14px] ">
-                <div className="primary-button-small aspect-square font-satoshi font-medium rounded-[12px] px-2.5 py-2.5">
-                  <Image
-                    width={28}
-                    height={8}
-                    src="/img/menu.svg"
-                    alt="Menu icon"
-                  />
-                </div>
+              <div className="w-10 h-10 rounded-full aspect-square flex items-center justify-center bg-[#C69043] z-50 -mt-1.5">
+                <Menu />
               </div>
             </SheetTrigger>
             <SheetContent side="left" className="z-[999999]">

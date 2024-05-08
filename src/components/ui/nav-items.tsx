@@ -1,8 +1,8 @@
 "use client";
 
+import { motion } from "framer-motion";
 import Link from "next/link";
 import { useLayoutEffect, useState } from "react";
-import { motion } from "framer-motion";
 
 const navigation = [
   { name: "Our Firm", link: "/" },

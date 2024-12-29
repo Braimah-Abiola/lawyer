@@ -57,9 +57,11 @@ const Navbar = () => {
         </div>
 
         <div className="hidden lg:block">
-          <h2 className="text-lg font-semibold underline underline-offset-8 text-[#C69043]">
-            Email Us
-          </h2>
+          <Link href="mailto:andyharrison5555@gmail.com">
+            <h2 className="text-lg font-semibold underline underline-offset-8 text-[#C69043]">
+              Email Us
+            </h2>
+          </Link>
         </div>
 
         <div className="lg:hidden">

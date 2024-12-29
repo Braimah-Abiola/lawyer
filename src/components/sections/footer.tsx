@@ -25,7 +25,9 @@ const Footer = () => {
             <h4 className="text-base font-medium text-white">Services</h4>
             <h4 className="text-base font-medium text-white">Blog</h4>
             <h4 className="text-base font-medium text-white">Faq</h4>
-            <h4 className="text-base font-medium text-white">Contact Us</h4>
+            <Link href="mailto:andyharrison5555@gmail.com">
+              <h4 className="text-base font-medium text-white">Contact Us</h4>
+            </Link>
           </div>
         </div>
         <Separator className="bg-white/10 mt-12 mb-10" />
@@ -59,9 +61,11 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col items-center md:items-end">
-            <h4 className="text-base font-medium text-white">
-              andyharrison@law.com
-            </h4>
+            <Link href="mailto:andyharrison5555@gmail.com">
+              <h4 className="text-base font-medium text-white">
+                andyharrison5555@gmail.com
+              </h4>
+            </Link>
 
             <h4 className="text-base font-medium text-white">
               +1 946 214-51-75

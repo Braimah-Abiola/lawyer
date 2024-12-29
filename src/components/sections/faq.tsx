@@ -18,16 +18,14 @@ const Faq = () => {
             <AccordionTrigger>
               <h3 className="flex flex-row gap-4 md:gap-12">
                 <span>01.</span>
-                <span>Representation of Interests in court</span>
+                <span>Representation of Interests in Court</span>
               </h3>
             </AccordionTrigger>
             <AccordionContent>
-              Simply reach out to us via our website or contact form to begin.
-              We&apos;ll schedule a consultation to understand your goals and
-              tailor a customized plan to maximize your OnlyFans success. With
-              our support, you can focus on creating content while we handle the
-              rest. Let&apos;s start your journey to increased earnings and a
-              thriving fanbase today.
+              Our experienced attorneys provide robust representation in court,
+              ensuring your interests are effectively advocated. We handle all
+              aspects of litigation, from initial consultation to final
+              resolution.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
@@ -38,38 +36,38 @@ const Faq = () => {
               </h3>
             </AccordionTrigger>
             <AccordionContent>
-              Using Fashva ensures expert management, saves you time, offers
-              strategic guidance, aids in marketing and promotion, and enhances
-              privacy and security for your account.
+              We offer comprehensive corporate law services, including business
+              formation, contract negotiation, compliance, and dispute
+              resolution. Our goal is to support your business's legal needs at
+              every stage.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
             <AccordionTrigger>
               <h3 className="flex flex-row gap-4 md:gap-12">
                 <span>03.</span>
-                <span>Real estate and land law</span>
+                <span>Real Estate and Land Law</span>
               </h3>
             </AccordionTrigger>
             <AccordionContent>
-              Our agency offers a range of services tailored to optimize your
-              OnlyFans experience. These include content creation assistance,
-              audience engagement strategies, marketing and promotion support,
-              account management, and ensuring privacy and security for your
-              account.
+              Our firm provides expert legal advice on real estate transactions,
+              property disputes, zoning issues, and land use regulations. We
+              help you navigate the complexities of real estate law with
+              confidence.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-4">
             <AccordionTrigger>
               <h3 className="flex flex-row gap-4 md:gap-12">
                 <span>04.</span>
-                <span>Labour law</span>
+                <span>Labour Law</span>
               </h3>
             </AccordionTrigger>
             <AccordionContent>
-              The cost of our agency&apos;s services varies depending on the
-              specific needs and requirements of each client. We offer
-              customized solutions tailored to your goals and budget. Contact us
-              for a personalized quote based on your preferences and objectives.
+              We specialize in labour law, offering services related to
+              employment contracts, workplace disputes, wrongful termination,
+              and compliance with labour regulations. Protecting your rights in
+              the workplace is our priority.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-5">
@@ -80,9 +78,9 @@ const Faq = () => {
               </h3>
             </AccordionTrigger>
             <AccordionContent>
-              Yes, you retain full ownership of your content when using our
-              agency&apos;s services. We respect your rights as the creator and
-              ensure that you maintain control over your content at all times.
+              Our family law services cover divorce, child custody, alimony, and
+              adoption. We provide compassionate and effective legal support to
+              help you navigate these sensitive matters.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-6">
@@ -93,10 +91,9 @@ const Faq = () => {
               </h3>
             </AccordionTrigger>
             <AccordionContent>
-              Absolutely. Protecting your privacy is paramount to us. We
-              maintain strict confidentiality and take measures to safeguard
-              your personal information and identity. Rest assured, your privacy
-              is our priority when working with our agency.
+              Our tax law experts offer guidance on tax planning, compliance,
+              and dispute resolution. We help you manage your tax obligations
+              efficiently and effectively.
             </AccordionContent>
           </AccordionItem>
         </Accordion>

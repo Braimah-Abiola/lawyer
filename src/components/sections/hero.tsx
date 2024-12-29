@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Wrapper from "../wrapper/wrapper";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -28,13 +29,18 @@ const HeroSection = () => {
               </h1>
             </div>
             <div className="h-full">
-              <p className="ml-20 w-[50%]">
+              <p className="ml-20 w-[50%] md:w-[70%]">
                 Our law firm provides high quality legal services for
                 individuals and businesses. Our Team of experienced lawyers
                 specializes in various areas of law and are always ready to
                 offer professional assistance in solving the most complex legal
                 issues.
               </p>
+              <Link href="mailto:andyharrison5555@gmail.com">
+                <button className="ml-20 bg-[#C69043] hover:bg-[#C69043]/80 rounded-full px-4 py-2.5 h-9 flex items-center text-white mt-6">
+                  Work With Us
+                </button>
+              </Link>
             </div>
           </div>
           <div className="w-full  h-full py-20">

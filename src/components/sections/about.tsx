@@ -95,7 +95,7 @@ const AboutSection = () => {
             Personalized Service
           </p>
           <p className="text-black text-lg font-normal mt-14">
-            We prioritize our clients' needs, offering personalized legal
+            We prioritize our clients&apos; needs, offering personalized legal
             solutions tailored to each unique situation. Our commitment to
             client satisfaction drives us to deliver exceptional service and
             representation.

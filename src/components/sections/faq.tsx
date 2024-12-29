@@ -38,8 +38,8 @@ const Faq = () => {
             <AccordionContent>
               We offer comprehensive corporate law services, including business
               formation, contract negotiation, compliance, and dispute
-              resolution. Our goal is to support your business's legal needs at
-              every stage.
+              resolution. Our goal is to support your business&apos;s legal
+              needs at every stage.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">

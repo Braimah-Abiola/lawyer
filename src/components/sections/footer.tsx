@@ -66,10 +66,6 @@ const Footer = () => {
                 andyharrison5555@gmail.com
               </h4>
             </Link>
-
-            <h4 className="text-base font-medium text-white">
-              +1 946 214-51-75
-            </h4>
           </div>
         </div>
 

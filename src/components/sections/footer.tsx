@@ -66,6 +66,9 @@ const Footer = () => {
                 andyharrison5555@gmail.com
               </h4>
             </Link>
+            <Link href="tel:+14374500104">
+              <h4 className="text-base font-medium text-white">+1 437 450 0104</h4>
+            </Link>
           </div>
         </div>
 

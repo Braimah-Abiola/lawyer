@@ -34,7 +34,7 @@ const Footer = () => {
         <div className="w-full flex flex-col md:flex-row items-center md:justify-between">
           <div>
             <h4 className="text-base font-medium text-white">
-              23475 Glacier View Dr, Eagle <br /> River, Alaska 99577, USA
+              Cineworld Liverpool <br/> Edge Lane Retail Park, Liverpool <br /> L13 1EW
             </h4>
           </div>
 
@@ -67,7 +67,9 @@ const Footer = () => {
               </h4>
             </Link>
             <Link href="tel:+14374500104">
-              <h4 className="text-base font-medium text-white">+1 437 450 0104</h4>
+              <h4 className="text-base font-medium text-white">
+                +44 7492 669851
+              </h4>
             </Link>
           </div>
         </div>
